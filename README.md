@@ -1,4 +1,4 @@
-**Server Requirements**
+**Server and Database Requirements**
 
 - MySQL server running with username/password configured in DatabaseControl.java before artifacts are built
 - database.sql ran on the MySQL server
