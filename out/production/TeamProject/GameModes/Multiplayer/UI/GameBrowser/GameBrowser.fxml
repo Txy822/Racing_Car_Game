@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+  xmlns="http://javafx.com/javafx"
+  fx:id="root">
+
+  <StackPane AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" fx:id="contentParent">
+    <VBox maxWidth="800" fx:id="content">
+      <Text styleClass="title"/>
+
+      <HBox styleClass="toolbar" fx:id="toolbar">
+        <children>
+          <TextField promptText="Input player name..." fx:id="playerNameInput"></TextField>
+          <Button text="Update name" translateX="10" fx:id="playerNameButton"></Button>
+
+          <Pane HBox.hgrow="ALWAYS"/>
+          <Button text="Create" fx:id="createGameButton"></Button>
+        </children>
+      </HBox>
+
+      <VBox alignment="CENTER" fx:id="gamesBox">
+
+      </VBox>
+    </VBox>
+
+
+  </StackPane>
+  <HBox AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" translateX="960" translateY="-170"
+    fx:id="backBox">
+    <children>
+    </children>
+  </HBox>
+
+  <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+    AnchorPane.topAnchor="0.0" fx:id="popupParent">
+
+  </StackPane>
+
+</AnchorPane>

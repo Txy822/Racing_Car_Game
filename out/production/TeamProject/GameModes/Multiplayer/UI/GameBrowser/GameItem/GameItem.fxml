@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+<HBox xmlns:fx="http://javafx.com/fxml"
+  styleClass="wrapper"
+  xmlns="http://javafx.com/javafx"
+  fx:id="root">
+  <Text fx:id="nameText"></Text>
+  <Text fx:id="startedText"></Text>
+
+  <Pane HBox.hgrow="ALWAYS"/>
+  <HBox fx:id="rightBox">
+    <Text fx:id="lapText"></Text>
+    <Text styleClass="track-text" fx:id="trackText"></Text>
+    <Text fx:id="playerCountText"></Text>
+    <Button styleClass="join-button" fx:id="joinButton"></Button>
+  </HBox>
+</HBox>

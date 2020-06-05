@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TeamProject.jnlp">
+  <information>
+    <title>The Car Game</title>
+    <vendor>Unknown</vendor>
+    <description>TCG_Client</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TeamProject.jar" size="12793237" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Database.Login"  name="TCG_Client" />
+  <update check="background"/>
+</jnlp>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+  xmlns="http://javafx.com/javafx">
+
+  <StackPane AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" fx:id="contentParent">
+    <VBox maxWidth="600" fx:id="content">
+      <HBox styleClass="top-bar" fx:id="toolbar">
+        <Pane HBox.hgrow="ALWAYS"/>
+      </HBox>
+
+      <Text styleClass="main-title" fx:id="gameNameText"/>
+
+      <HBox fx:id="wrapperBox">
+        <VBox>
+          <Text styleClass="player-title" text="Players"/>
+          <VBox fx:id="playersBox">
+            <ListView translateY="50" fx:id="playersListView"/>
+          </VBox>
+        </VBox>
+
+        <VBox>
+          <Text styleClass="player-title" fx:id="trackTitle"/>
+          <Text styleClass="player-title" fx:id="trackLaps"/>
+          <Group fx:id="trackPreview">
+          </Group>
+        </VBox>
+      </HBox>
+
+      <HBox spacing="300" styleClass="bottom-bar" translateY="180" fx:id="bottomBox">
+
+      </HBox>
+
+    </VBox>
+  </StackPane>
+
+</AnchorPane>

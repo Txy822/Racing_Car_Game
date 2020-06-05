@@ -1,0 +1,29 @@
+.top-bar {
+  -fx-min-width: 800px;
+  -fx-max-width: 800px;
+}
+
+.bottom-bar {
+  -fx-min-width: 800px;
+  -fx-max-width: 800px;
+
+}
+
+.list-view, .split-pane {
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+
+.player-title {
+  -fx-font-size: 30;
+}
+
+.main-title {
+  -fx-font-size: 40;
+}
+
+.root123 {
+  -fx-background-image: url("../../../../Resources/BG/blankBG.png");
+  -fx-background-size: 800;
+}
+
