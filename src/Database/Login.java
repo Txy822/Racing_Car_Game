@@ -38,7 +38,7 @@ public class Login extends Application {
   private DatabaseControl dbControl = new DatabaseControl();
 
   /**
-   * Get ID
+   * Get player ID
    *
    * @return player ID
    */
