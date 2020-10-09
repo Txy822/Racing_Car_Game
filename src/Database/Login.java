@@ -22,6 +22,7 @@ import javafx.stage.Window;
 
 /**
  * Login class for player
+ * it shall extend setting class 
  */
 public class Login extends Application {
 
@@ -217,7 +218,6 @@ public class Login extends Application {
 
   /**
    * shows messages to the window
-   *
    * @param alertType a variable of alertType
    * @param owner A variable of type Window
    * @param title A variable of type String
