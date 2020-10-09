@@ -8,7 +8,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
 /**
- * PBKDF2(Password-Based Key Derivation Function 2) based password hashing class
+ * PBKDF2(Password-Based Key Derivation Function 2) based password hashing class used to hash password to store in the database
  */
 public class HashPassword {
 
