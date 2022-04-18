@@ -22,15 +22,15 @@ such as
 6. power ups and oil to speed up and reduce car speed. 
 
 Sample output of the application
-<img src="Images/homePage.png" alt ="homePage "/>
-<img src="Images/leader_board.png" alt ="leader_board"/>
-<img src="Images/multi_player_room.png" alt ="multi_player_room"/>
+<img src="images/homePage.png" alt ="homePage "/>
+<img src="images/leader_board.png" alt ="leader_board"/>
+<img src="images/multi_player_room.png" alt ="multi_player_room"/>
 
-<img src="Images/multi_player_single_player_selector.png" alt ="multi_player_single_player_selector "/>
-<img src="Images/single_payer_options.png" alt ="single_payer_options"/>
-<img src="Images/AI_and_real_person_playing.png" alt ="AI_and_real_person_playing"/>
+<img src="images/multi_player_single_player_selector.png" alt ="multi_player_single_player_selector "/>
+<img src="images/single_payer_options.png" alt ="single_payer_options"/>
+<img src="images/AI_and_real_person_playing.png" alt ="AI_and_real_person_playing"/>
 
-<img src="Images/singlePlayer.png" alt ="singlePlayer"/>
+<img src="images/singlePlayer.png" alt ="singlePlayer"/>
 
 homePage.png
 leader_board.png
