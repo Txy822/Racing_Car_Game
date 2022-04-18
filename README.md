@@ -1,3 +1,18 @@
+
+# Car Racing Game
+
+This game is developed follwing software design principles. It has different components including AI, database,physics, camera, multiplayer and single player mode and others. 
+
+- AI is one player which figures out its root and avoid obstacles to be computant withe real human player
+- Database is used to store user details, leader board time and other data
+- Physics component of the game allows the car delelerate and accelarte during race
+- Server is also another comnponent of the game which allows more than one player can participate. 
+  It uses client - server communication which uses local device as server
+- Camera also used to display the track as player moves different track sections. 
+
+
+
+
 **Server and Database Requirements**
 
 - MySQL server running with username/password configured in DatabaseControl.java before artifacts are built
@@ -12,16 +27,8 @@
 1. Run out/artifacts/TCG_Client
 
 
-The project has multiple components
-such as 
-1. Single player
-2. Multiple player
-3. AI
-4. Database and server
-5. Camera
-6. power ups and oil to speed up and reduce car speed. 
+The sample User Interface(UI) application
 
-Sample output of the application
 <img src="images/homePage.png" alt ="homePage "/>
 <!-- <img src="images/leader_board.png" alt ="leader_board"/> -->
 <img src="images/multi_player_room.png" alt ="multi_player_room"/>
