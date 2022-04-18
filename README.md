@@ -23,19 +23,11 @@ such as
 
 Sample output of the application
 <img src="images/homePage.png" alt ="homePage "/>
-<img src="images/leader_board.png" alt ="leader_board"/>
+<!-- <img src="images/leader_board.png" alt ="leader_board"/> -->
 <img src="images/multi_player_room.png" alt ="multi_player_room"/>
 
 <img src="images/multi_player_single_player_selector.png" alt ="multi_player_single_player_selector "/>
-<img src="images/single_payer_options.png" alt ="single_payer_options"/>
+<!-- <img src="images/single_payer_options.png" alt ="single_payer_options"/> -->
 <img src="images/AI_and_real_person_playing.png" alt ="AI_and_real_person_playing"/>
 
 <img src="images/singlePlayer.png" alt ="singlePlayer"/>
-
-homePage.png
-leader_board.png
-multi_player_room.png
-multi_player_single_player_selector.png
-single_payer_options.png
-singlePlayer.png
-AI_and_real_person_playing.png
